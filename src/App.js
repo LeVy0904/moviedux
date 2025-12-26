@@ -1,15 +1,17 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <h1>Welcome to Moviedux</h1>
-      </header>
-      <footer>
-        <p className="footer">© 2023 Moviedux. All rights reserved.</p>
-      </footer>
+      <div className="container">
+        <header>
+          <Header />
+        </header>
+      </div>
+      <Footer />
     </div>
   );
 }
